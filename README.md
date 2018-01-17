@@ -1,8 +1,7 @@
-# siddpubs
+# Personal Robotics Publications
 
-BibTeX entries for [Siddhartha Srinivasa's](www.cs.cmu.edu/~siddh) publications.
+BibTeX entries for the [Personal Robotics Lab][prl]. This repository is used to
+populate the [publications][prl-pubs] page on the lab website.
 
-Please visit the [RI Publications Database](http://www.ri.cmu.edu/person.html?type=publications&person_id=696) for PDFs, 
-and the [Google Scholar page](https://scholar.google.com/citations?hl=en&user=RCi98EAAAAAJ&view_op=list_works&pagesize=100)
-for citations.
-
+[prl]: https://personalrobotics.cs.washington.edu/
+[prl-pubs]: https://personalrobotics.cs.washington.edu/publications/
