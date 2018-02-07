@@ -1,2 +1,2 @@
 - [ ] Update `.bib` file
-- [ ] Upload publication PDF
+- [ ] Upload publication PDF to [Google Drive](https://drive.google.com/drive/folders/1M9fOGIIQ3e1R62dtVit5rZ5iWZqxfWV9)
