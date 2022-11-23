@@ -1,4 +1,4 @@
-name: Test pubs against website main
+name: Test pubs against website
 
 on:
   # Pushes / merges to master
@@ -23,9 +23,11 @@ jobs:
     - name: Checkout prl-website
       uses: actions/checkout@v3
       with:
+        ref: master
         repository: personalrobotics/prl-website
         path: prl-website
-    - uses: actions/setup-python@v4
+    - name: Setup Python
+      uses: actions/setup-python@v4
       with:
         python-version: '3.x'
         cache: pip
