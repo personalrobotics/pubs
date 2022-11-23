@@ -1,0 +1,36 @@
+name: Test pubs against website main
+
+on:
+  # Pushes / merges to master
+  push:
+    branches:
+      - master
+  # On creation and updating of PR
+  pull_request:
+    types: [opened, reopened, synchronize]
+    # Only those targeting master branch
+    branches:
+      - master
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout pubs
+      uses: actions/checkout@v3
+      with:
+        path: pubs
+    - name: Checkout prl-website
+      uses: actions/checkout@v3
+      with:
+        repository: personalrobotics/prl-website
+        path: prl-website
+    - uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+        cache: pip
+        cache-dependency-path: prl-website/setup.py
+    - name: Install PRL website
+      run: pip install -e ./prl-website/
+    - name: Run Test
+      run: python pubs/test_pubs.py
