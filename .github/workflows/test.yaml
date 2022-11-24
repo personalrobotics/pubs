@@ -23,6 +23,7 @@ jobs:
     - name: Checkout prl-website
       uses: actions/checkout@v3
       with:
+        token: ${{ secrets.READ_PAT }}
         ref: master
         repository: personalrobotics/prl-website
         path: prl-website
