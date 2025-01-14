@@ -16,6 +16,7 @@ synced to the web server.
 - The rare exception is non-textual publications, such as videos or datasets: [example](https://github.com/personalrobotics/pubs/blob/e70ceab48d07c2efdaa4a071256fd8c1e17e861f/siddpubs-misc.bib#L68-L69).
 - If the publication has a project website, the website can be linked as a `note` in the BibTex: [example](https://github.com/personalrobotics/pubs/blob/e70ceab48d07c2efdaa4a071256fd8c1e17e861f/siddpubs-conf.bib#L72).
   The project website should have a link to the paper PDF on the personalrobotics domain.
+  The website should also be persistent (i.e., on a web domain or resource that will outlive your time in the lab and that other lab members can access if need be).
 
 ## Adding this repo to a LaTeX paper repo
 
