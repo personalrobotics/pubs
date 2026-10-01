@@ -538,6 +538,7 @@
   status: alumni
   start_year: 2018
   end_year: 2020
+  thesis_title: "Lyceum: An Efficient and Scalable Ecosystem for Robot Learning"
 - id: rockett
   name: Matthew Rockett
   role: ms_student
