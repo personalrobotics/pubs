@@ -530,6 +530,7 @@
   status: alumni
   start_year: 2017
   end_year: 2019
+  thesis_title: "MuSHR: A Low-Cost, Open-Source Robotic Racecar for Education and Research"
   current_position: PhD @ Cornell
 - id: summers
   name: Colin Summers
@@ -543,6 +544,7 @@
   status: alumni
   start_year: 2018
   end_year: 2020
+  thesis_title: "MuSHR: A Low-Cost, Open-Source Robotic Racecar for Education and Research"
   current_position: Engineer @ Zordi
 - id: nansong-yi
   name: Nansong Yi
