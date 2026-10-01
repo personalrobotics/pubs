@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/siddhss5/sslabdata/input-schema-v1/schema/input/v1/people.schema.json
+# yaml-language-server: $schema=https://raw.githubusercontent.com/siddhss5/sslabdata/input-schema-v2/schema/input/v2/people.schema.json
 # People data for the lab
 # Format: list of people with id, name, role, status, and other metadata
 
