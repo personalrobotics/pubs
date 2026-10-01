@@ -6,7 +6,7 @@
 #   - title: Display title for the project
 #   - description: Brief description of the project
 #   - website: Project website URL (optional)
-#   - status: Project status - "active" or "archived"
+#   - status: Project status - "active" or "completed"
 #
 # Publications will be automatically associated with projects based on
 # the "project" field in your BibTeX entries.
