@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/siddhss5/sslabdata/input-schema-v1/schema/input/v1/lab.schema.json
+# yaml-language-server: $schema=https://raw.githubusercontent.com/siddhss5/sslabdata/input-schema-v2/schema/input/v2/lab.schema.json
 # sslabdata configuration for the lab's own data: the bib files, people and
 # projects in this repository. CI checks them with
 #   sslabdata --config lab.yaml --validate --strict
