@@ -18,6 +18,26 @@ synced to the web server.
   The project website should have a link to the paper PDF on the personalrobotics domain.
   The website should also be persistent (i.e., on a web domain or resource that will outlive your time in the lab and that other lab members can access if need be).
 
+## People and projects
+
+`people.yaml` lists everyone in the lab, current and alumni, and `projects.yaml`
+lists the lab's projects. Both the lab website and [goodrobot.ai](https://goodrobot.ai)
+build from them, so they live here, next to the papers they link.
+
+- **Joining the lab:** add yourself to `people.yaml` with `status: current`. Add
+  an `aliases` entry for each way your name is written in the bib files (e.g.
+  `"J. Doe"`), so your papers link to you.
+- **Leaving:** change `status` to `alumni` and add `end_year` and `current_position`.
+  Don't delete the entry.
+- **Projects:** a paper joins a project through a `project = {id}` field in its bib
+  entry, using an `id` from `projects.yaml`.
+
+CI checks the bib files, people and projects together with
+[sslabdata](https://github.com/siddhss5/sslabdata). To run the same check locally:
+```
+$ uvx sslabdata --config lab.yaml --validate --strict
+```
+
 ## Adding this repo to a LaTeX paper repo
 
 One way to add this repository to a paper repository is via the [git submoudle](https://git-scm.com/book/en/v2/Git-Tools-Submodules) command. Do the following in your paper repository:

@@ -1,0 +1,31 @@
+name: Validate lab data
+
+# Checks the bib files, people.yaml and projects.yaml together with sslabdata:
+# duplicate keys or ids, unknown project tags, and author names that could be
+# more than one lab member all fail the check.
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+    - name: Install uv
+      uses: astral-sh/setup-uv@c18668ad3cf93ea998bef934396af7bb5c839dc7 # v10.2.0
+      with:
+        version: "0.12.15"
+
+    - name: Validate
+      run: uvx sslabdata==4.0.0 --config lab.yaml --validate --strict
