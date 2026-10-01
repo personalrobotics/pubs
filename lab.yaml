@@ -1,0 +1,22 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/siddhss5/sslabdata/input-schema-v1/schema/input/v1/lab.schema.json
+# sslabdata configuration for the lab's own data: the bib files, people and
+# projects in this repository. CI checks them with
+#   sslabdata --config lab.yaml --validate --strict
+# Sites that build from this repository use their own lab.yaml, pointing here.
+lab:
+  name: "Personal Robotics Lab"
+  university: "University of Washington"
+  department: "Paul G. Allen School of Computer Science & Engineering"
+  website: "https://personalrobotics.cs.washington.edu/"
+
+bib_dir: "."
+bib_files:
+  - name: "siddpubs-journal.bib"
+    category: "Journal Papers"
+  - name: "siddpubs-conf.bib"
+    category: "Conference Papers"
+  - name: "siddpubs-misc.bib"
+    category: "Other Publications"
+
+people_file: "people.yaml"
+projects_file: "projects.yaml"

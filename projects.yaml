@@ -1,0 +1,31 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/siddhss5/sslabdata/input-schema-v1/schema/input/v1/projects.schema.json
+# Projects configuration file
+#
+# Add your research projects here. Each project should have:
+#   - id: Unique identifier used in BibTeX project field
+#   - title: Display title for the project
+#   - description: Brief description of the project
+#   - website: Project website URL (optional)
+#   - status: Project status - "active" or "archived"
+#
+# Publications will be automatically associated with projects based on
+# the "project" field in your BibTeX entries.
+#
+
+- id: "robotfeeding"
+  title: "Robot-Assisted Feeding"
+  description: "Our work in robot-assisted feeding focuses on enabling autonomous, safe, and comfortable bite acquisition and delivery for individuals with motor impairments. Our system ADA (Assistive Dexterous Arm) integrates compliant control, multimodal perception, and learned food interaction policies to handle the diversity of everyday meals. We study the fundamental problems of manipulation under uncertainty while advancing assistive robotics for real-world impact."
+  website: "https://robotfeeding.io"
+  status: "active"
+
+- id: "interventions"
+  title: "Learning from Interventions"
+  description: "We study how human interventions, like resets, corrections, and implicit signals, among others, can serve as a principled source of structure for safe and efficient robot learning. By interpreting interventions as defining support sets of safe and high-value states, we design algorithms that provably accelerate convergence while bounding suboptimality. This framework extends to learning intervention models directly from observation, allowing agents to autonomously infer when to reset, request help, or modify their behavior. Our broader goal is to establish a unified foundation for learning under human guidance, where safety, efficiency, and adaptability emerge naturally from the dynamics of interaction."
+  website: ""
+  status: "active"
+
+- id: "dataefficiency"
+  title: "Data-Efficient Robot Learning"
+  description: "We are developing a theory and framework for data-efficient robot learning that unifies efficient representation learning with provably reliable supervision. Our goal is to enable agents to generalize from limited, imperfect, or synthetic data by grounding both what they learn, through compact, task-aligned representations, and how they learn, through corrective labels that are mathematically consistent with the underlying dynamics. This perspective treats learning as an interplay between structure discovery and label synthesis, yielding algorithms that can extrapolate safely beyond expert demonstrations. Ultimately, we aim to build robotic systems that learn robustly and efficiently from sparse, weak, or self-generated experience."
+  website: "https://personalrobotics.github.io/CCIL/"
+  status: "active"
