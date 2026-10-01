@@ -66,7 +66,6 @@
   end_year: 2024
   current_position: Lecturer @ University of Washington
 
-  website: https://www.taylorkesslerfaulkner.com
 - id: mavrogiannis
   name: Christoforos Mavrogiannis
   aliases: ["C. Mavrogiannis"]
@@ -76,7 +75,6 @@
   end_year: 2023
   current_position: Assistant Professor @ Michigan
 
-  website: https://chrismavrogiannis.com
 - id: choudhury
   name: Sanjiban Choudhury
   role: postdoc
@@ -85,7 +83,6 @@
   end_year: 2019
   current_position: Assistant Professor @ Cornell
 
-  website: http://www.sanjibanchoudhury.com/
 - id: barnes
   name: Matthew Barnes
   aliases: ["M. Barnes"]
@@ -95,7 +92,6 @@
   end_year: 2019
   current_position: Researcher @ Google
 
-  website: https://homes.cs.washington.edu/~mbarnes/
 - id: bhattacharjee
   name: Tapomayukh Bhattacharjee
   aliases: ["T. Bhattacharjee"]
@@ -105,7 +101,6 @@
   end_year: 2021
   current_position: Assistant Professor @ Cornell
 
-  website: http://www.tapomayukh.com
 - id: salzman
   name: Oren Salzman
   aliases: ["O. Salzman"]
@@ -115,7 +110,6 @@
   end_year: 2017
   current_position: Assistant Professor @ Technion
 
-  website: http://www.orensalzman.com
 - id: yi
   name: Daqing Yi
   aliases: ["D. Yi"]
@@ -125,7 +119,6 @@
   end_year: 2018
   current_position: Researcher @ Google
 
-  website: http://www.ri.cmu.edu/person.html?person_id=4530
 - id: admoni
   name: Henny Admoni
   aliases: ["H. Admoni"]
@@ -135,7 +128,6 @@
   end_year: 2017
   current_position: Assistant Professor @ CMU
 
-  website: http://hennyadmoni.com
 - id: johnson
   name: Aaron Johnson
   aliases: ["A. Johnson"]
@@ -145,7 +137,6 @@
   end_year: 2016
   current_position: Assistant Professor @ CMU
 
-  website: https://www.ri.cmu.edu/person.html?person_id=3592
 - id: velagapudi
   name: Prasanna Velagapudi
   aliases: ["P. Velagapudi"]
@@ -163,7 +154,6 @@
   start_year: 2018
   end_year: 2019
   current_position: Research Scientist @ DeepMind
-  website: https://homes.cs.washington.edu/~fsadeghi/
 - id: nanavati
   name: Amal Nanavati
   aliases: ["A. Nanavati"]
@@ -175,7 +165,6 @@
   thesis_title: "Towards In-Home Deployments of Physically Assistive Robots: Insights from Robot-Assisted Feeding for People with Motor Impairments"
   current_position: Researcher @ Zoox
 
-  website: https://amalnanavati.com/
 - id: schmittle
   name: Matthew Schmittle
   aliases: ["M. Schmittle"]
@@ -186,7 +175,6 @@
   thesis_title: Off-Road Navigation Under Sensing Uncertainty
   current_position: Researcher @ Overland AI
 
-  website: https://www.mattschmittle.com/
 - id: gordon
   name: Ethan Gordon
   aliases: ["E. Gordon", "E.K. Gordon", "Ethan K. Gordon"]
@@ -197,7 +185,6 @@
   thesis_title: Tractably Adaptable Food Manipulation for Robot-Assisted Feeding
   current_position: Postdoc @ Penn
 
-  website: https://ethankgordon.com
 - id: ke
   name: Liyiming Ke
   aliases: ["L. Ke", "Ke Liyiming"]
@@ -209,7 +196,6 @@
   thesis_title: "Teach Robot to Use Chopsticks: a Test Bed for Robotic Learning via Fine Manipulation"
   current_position: Researcher @ Physical Intelligence
 
-  website: https://kelym.github.io/
 - id: agnew
   name: William Agnew
   aliases: ["W. Agnew"]
@@ -220,7 +206,6 @@
   thesis_title: Human Priors for Reinforcement Learning
   current_position: Postdoc @ CMU
 
-  website: http://www.william-agnew.com
 - id: niyaz
   name: Sherdil Niyaz
   aliases: ["S. Niyaz"]
@@ -231,7 +216,6 @@
   thesis_title: Optimizing the Design of Robot Environments via Interleaved Optimization and White-Box Motion-Planning
   current_position: Researcher @ Waymo
 
-  website: http://sniyaz.weebly.com/
 - id: hou
   name: Brian Hou
   aliases: ["B. Hou"]
@@ -242,7 +226,6 @@
   thesis_title: Robot Motion Planning with Uncertainty and Urgency
   current_position: Researcher @ Aurora
 
-  website: https://brianhou.com/
 - id: ainsworth
   name: Samuel Ainsworth
   aliases: ["S. Ainsworth", "Samuel K. Ainsworth"]
@@ -253,7 +236,6 @@
   thesis_title: Perspectives on Policy Learning
   current_position: Researcher @ Waymo
 
-  website: http://samlikes.pizza/
 - id: lancaster
   name: Patrick Lancaster
   aliases: ["P. Lancaster", "P.E. Lancaster"]
@@ -265,7 +247,6 @@
   thesis_title: Towards Dexterous In-Hand Manipulation via Electrostatic Braking and Pre-touch Sensing
   current_position: Postdoc @ Meta
 
-  website: https://palanc.github.io/
 - id: vamsikrishna
   name: Aditya Vamsikrishna
   aliases: ["A. Mandalika"]
@@ -276,7 +257,6 @@
   thesis_title: Efficient Robot Motion Planning in Cluttered Environments
   current_position: Researcher @ Aurora
 
-  website: https://www.adityavk.com
 - id: lee
   name: Gilwoo Lee
   aliases: ["G. Lee"]
@@ -287,7 +267,6 @@
   thesis_title: Scalable Bayesian Reinforcement Learning
   current_position: Founder @ Zordi
 
-  website: https://gilwoolee.github.io
 - id: nikolaidis
   name: Stefanos Nikolaidis
   aliases: ["S. Nikolaidis"]
@@ -298,7 +277,6 @@
   thesis_title: Mathematical Models of Adaptation in Human-Robot Collaboration
   current_position: Assistant Professor @ USC
 
-  website: http://stefanosnikolaidis.net
 - id: herlant
   name: Laura Herlant
   aliases: ["L. Herlant"]
@@ -309,7 +287,6 @@
   thesis_title: Algorithms and Implementation and Studies on Eating with a Shared Control Robot Arm
   current_position: Director of Robot Perception @ Robotics and AI Institute
 
-  website: https://www.ri.cmu.edu/person.html?person_id=3157
 - id: marinho
   name: Zita Marinho
   aliases: ["Z. Marinho"]
@@ -321,7 +298,6 @@
   thesis_title: Moment-based Algorithms for Structured Prediction
   current_position: Research Scientist @ DeepMind
 
-  website: http://www.cs.cmu.edu/~zmarinho/
 - id: javdani
   name: Shervin Javdani
   aliases: ["S. Javdani"]
@@ -333,7 +309,6 @@
   thesis_title: Acting under Uncertainty for Information Gathering and Shared Autonomy
   current_position: Researcher @ Aurora
 
-  website: http://www.cs.cmu.edu/~sjavdani
 - id: klingensmith
   name: Matt Klingensmith
   aliases: ["M. Klingensmith", "M.K. Klingensmith"]
@@ -345,7 +320,6 @@
   thesis_title: Tracking and Calibrating Robot Arms using SLAM Techniques
   current_position: Autonomy Engineer @ Wayve
 
-  website: http://matthewklingensmith.com
 - id: king
   name: Jennifer King
   aliases: ["J. King"]
@@ -356,7 +330,6 @@
   thesis_title: Robust Rearrangement Planning using Nonprehensile Interaction
   current_position: Researcher @ Berkshire Grey
 
-  website: https://www.ri.cmu.edu/person.html?person_id=2915
 - id: koval
   name: Michael Koval
   aliases: ["M. Koval", "M.C. Koval", "M.K. Koval"]
@@ -368,7 +341,6 @@
   thesis_title: Robust Manipulation via Contact Sensing
   current_position: Researcher @ Waymo
 
-  website: http://mkoval.org
 - id: dellin
   name: Christopher Dellin
   aliases: ["C. Dellin", "C.M. Dellin"]
@@ -379,7 +351,6 @@
   thesis_title: Completing Manipulation Tasks Efficiently in Complex Environments
   current_position: Roboticist @ Nuro
 
-  website: https://www.ri.cmu.edu/person.html?person_id=2267
 - id: dragan
   name: Anca Dragan
   aliases: ["A. Dragan", "A.D. Dragan"]
@@ -390,7 +361,6 @@
   thesis_title: Legible Robot Motion Planning
   current_position: Associate Professor @ Berkeley
 
-  website: https://www.cs.cmu.edu/~adragan
 - id: dogar
   name: Mehmet Dogar
   aliases: ["M. Dogar", "M.R. Dogar"]
@@ -401,7 +371,6 @@
   thesis_title: A Framework for Manipulation in Cluttered Environments
   current_position: Associate Professor @ Leeds
 
-  website: https://engineering.leeds.ac.uk/staff/743/dr_mehmet_dogar
 - id: collet
   name: Alvaro Collet
   aliases: ["A. Collet"]
@@ -413,7 +382,6 @@
   thesis_title: Lifelong Robotic Object Perception
   current_position: Engineering Lead @ Facebook
 
-  website: https://www.ri.cmu.edu/person.html?person_id=1609
 - id: berenson
   name: Dmitry Berenson
   aliases: ["D. Berenson"]
@@ -426,7 +394,6 @@
   current_position: Associate Professor @ Michigan
 
 # Alumni MS Students
-  website: http://web.eecs.umich.edu/~dmitryb/
 - id: jaime
   name: Jose Jaime
   role: ms_student
@@ -455,7 +422,6 @@
   thesis_title: A Linear-Time Variational Integrator for Multibody Systems
   current_position: Researcher @ Meta
 
-  website: https://sites.google.com/view/jslee
 - id: jin
   name: Pengju Jin
   aliases: ["P. Jin"]
@@ -466,7 +432,6 @@
   thesis_title: Highly Robust Pose Estimation from Single Frame RGBD
   current_position: Researcher @ Aurora
 
-  website: http://www.ri.cmu.edu/person.html?type=interests&person_id=3506
 - id: shushman-choudhury
   name: Shushman Choudhury
   role: ms_student
@@ -476,7 +441,6 @@
   thesis_title: Anytime Geometric Motion Planning on Large Dense Roadmaps
   current_position: AI Software Engineer @ Google Research
 
-  website: https://www.ri.cmu.edu/person.html?person_id=3873
 - id: scalise
   name: Rosario Scalise
   aliases: ["R. Scalise"]
@@ -488,7 +452,6 @@
   thesis_title: Human-Centered Design of Robot Explanations
   current_position: Ph.D. @ UW
 
-  website: https://rosarioscalise.com/
 - id: shen-li
   name: Shen Li
   aliases: ["S. Li"]
@@ -500,7 +463,6 @@
   thesis_title: Automatically Evaluating and Generating Clear Robot Explanations
   current_position: Ph.D. @ MIT
 
-  website: http://www.ri.cmu.edu/person.html?person_id=3883
 - id: shapiro
   name: Evan Shapiro
   role: ms_student
@@ -520,7 +482,6 @@
   thesis_title: "ROCK: Robust Object Constellation for Kinematic Pose"
   current_position: Postdoc @ Harvard
 
-  website: https://aaronwalsman.com/
 - id: cha
   name: Elizabeth Cha
   aliases: ["E. Cha"]
@@ -563,7 +524,6 @@
   co_advisor: Drew Bagnell
   thesis_title: "GATMO: A Generalized Approach to Tracking Movable Objects"
   current_position: Google Robotics
-  website: http://www.garratt.info
 - id: michalove
   name: Johan Michalove
   role: ms_student
@@ -571,14 +531,12 @@
   start_year: 2017
   end_year: 2019
   current_position: PhD @ Cornell
-  website: https://micha.love/
 - id: summers
   name: Colin Summers
   role: ms_student
   status: alumni
   start_year: 2018
   end_year: 2020
-  website: https://colinxsummers.com
 - id: rockett
   name: Matthew Rockett
   role: ms_student
@@ -601,7 +559,6 @@
   status: alumni
   start_year: 2022
   end_year: 2023
-  website: https://www.raidakarim.com/
 - id: bolotski
   name: Haya Bolotski
   role: research_staff
@@ -622,7 +579,6 @@
   start_year: 2019
   end_year: 2020
   current_position: PhD @ Cornell
-  website: https://www.cs.cornell.edu/~madan/
 - id: kim
   name: Youngsun Kim
   role: research_staff
@@ -638,14 +594,12 @@
   status: alumni
   start_year: 2024
   end_year: 2025
-  website: https://yewon-lee.github.io/
 - id: larkin
   name: Ashton Larkin
   role: intern_grad
   status: alumni
   start_year: 2024
   end_year: 2025
-  website: https://adlarkin.github.io/
 - id: sorokin
   name: Alex Sorokin
   role: intern_grad
@@ -669,7 +623,6 @@
   name: Davin Win Kyi
   role: intern_grad
   status: alumni
-  website: https://davinwinkyi-web.vercel.app/
 - id: quere
   name: Gabriel Quéré
   role: intern_grad
@@ -785,7 +738,6 @@
   status: alumni
   start_year: 2009
   current_position: Mujin
-  website: http://www.programmingvision.com
 - id: knepper
   name: Ross Knepper
   role: intern_grad
@@ -834,7 +786,6 @@
   status: alumni
   start_year: 2022
   end_year: 2024
-  website: https://abhaybd.github.io/
 - id: tallavajhula
   name: Abhijeet Tallavajhula
   role: intern_undergrad
@@ -988,11 +939,10 @@
   role: intern_undergrad
   status: alumni
   end_year: 2024
-  website: https://bariona.github.io/
 - id: pfeifer
   name: Quinn Pfeifer
   role: intern_undergrad
-  status: alumni
+  status: current
   website: https://quinnmp.github.io/
 - id: holladay
   name: Rachel Holladay
@@ -1022,10 +972,9 @@
   start_year: 2022
   end_year: 2023
 - id: ray-song
-  name: Ray Song
+  name: Yuxin (Ray) Song
   role: intern_undergrad
   status: alumni
-  website: https://rayxsong.com/
 - id: baijal
   name: Rohan Baijal
   role: intern_undergrad
@@ -1033,7 +982,6 @@
   start_year: 2022
   end_year: 2023
   current_position: PhD @ UW
-  website: https://rohanblueboybaijal.github.io/
 - id: yee
   name: Savanna Yee
   role: intern_undergrad
@@ -1049,6 +997,11 @@
   role: intern_undergrad
   status: alumni
   end_year: 2019
+- id: kutty
+  name: Sriram Kutty
+  role: intern_undergrad
+  status: current
+  start_year: 2025
 - id: poddar
   name: Sriyash Poddar
   role: intern_undergrad
@@ -1056,7 +1009,6 @@
   start_year: 2022
   end_year: 2023
   current_position: PhD @ UW
-  website: https://sriya.sh/
 - id: roychowdhury
   name: Sumegh Roychowdhury
   role: intern_undergrad
