@@ -160,6 +160,7 @@
   name: Fereshteh Sadeghi
   role: postdoc
   status: alumni
+  start_year: 2018
   end_year: 2019
   current_position: Research Scientist @ DeepMind
   website: https://homes.cs.washington.edu/~fsadeghi/
@@ -567,6 +568,7 @@
   name: Johan Michalove
   role: ms_student
   status: alumni
+  start_year: 2017
   end_year: 2019
   current_position: PhD @ Cornell
   website: https://micha.love/
@@ -574,18 +576,21 @@
   name: Colin Summers
   role: ms_student
   status: alumni
+  start_year: 2018
   end_year: 2020
   website: https://colinxsummers.com
 - id: rockett
   name: Matthew Rockett
   role: ms_student
   status: alumni
+  start_year: 2018
   end_year: 2020
   current_position: Engineer @ Zordi
 - id: nansong-yi
   name: Nansong Yi
   role: ms_student
   status: alumni
+  start_year: 2019
   end_year: 2021
   current_position: Engineer @ Amazon
 
