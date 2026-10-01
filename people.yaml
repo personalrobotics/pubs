@@ -64,7 +64,7 @@
   status: alumni
   start_year: 2022
   end_year: 2024
-  current_position: Lecturer @ University of Washington
+  current_position: Assistant Professor @ University of Washington
 
 - id: mavrogiannis
   name: Christoforos Mavrogiannis
@@ -126,7 +126,7 @@
   status: alumni
   start_year: 2015
   end_year: 2017
-  current_position: Assistant Professor @ CMU
+  current_position: Associate Professor @ CMU
 
 - id: johnson
   name: Aaron Johnson
@@ -135,7 +135,7 @@
   status: alumni
   start_year: 2015
   end_year: 2016
-  current_position: Assistant Professor @ CMU
+  current_position: Professor @ CMU
 
 - id: velagapudi
   name: Prasanna Velagapudi
@@ -380,7 +380,7 @@
   end_year: 2012
   co_advisor: Martial Hebert
   thesis_title: Lifelong Robotic Object Perception
-  current_position: Engineering Lead @ Facebook
+  current_position: VP Head of AI @ Stack AV
 
 - id: berenson
   name: Dmitry Berenson
