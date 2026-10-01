@@ -942,7 +942,8 @@
 - id: pfeifer
   name: Quinn Pfeifer
   role: intern_undergrad
-  status: alumni
+  status: current
+  website: https://quinnmp.github.io/
 - id: holladay
   name: Rachel Holladay
   role: intern_undergrad
