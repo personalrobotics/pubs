@@ -997,6 +997,11 @@
   role: intern_undergrad
   status: alumni
   end_year: 2019
+- id: kutty
+  name: Sriram Kutty
+  role: intern_undergrad
+  status: current
+  start_year: 2025
 - id: poddar
   name: Sriyash Poddar
   role: intern_undergrad
