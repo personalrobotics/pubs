@@ -23,9 +23,8 @@ which syncs to the UW web server (see [Add a paper's PDF](#add-a-papers-pdf)).
 2. The **`validate`** check runs on it (see [How mistakes are caught](#how-mistakes-are-caught)).
    Fix anything it reports; a pull request with a failing check can't be merged.
 3. Once it is reviewed and merged:
-   - goodrobot.ai and the CV update on their own within minutes.
-   - The lab website updates when its maintainer moves its copy of this
-     repository forward. This is not automatic yet.
+   - The lab website, goodrobot.ai and the CV update on their own within
+     minutes.
 
 ## Add a paper
 

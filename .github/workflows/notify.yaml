@@ -3,13 +3,14 @@ name: Notify the sites
 # When master changes, tell the sites that build from this repository, so they
 # rebuild now rather than at their daily backstop:
 #
-# - siddhss5/siddhss5.github.io (goodrobot.ai) moves its data/pubs submodule to
-#   master and redeploys on `pubs-updated`.
+# - personalrobotics/personalrobotics.github.io (the lab website) and
+#   siddhss5/siddhss5.github.io (goodrobot.ai) each move their data/pubs
+#   submodule to master and redeploy on `pubs-updated`.
 # - siddhss5/sidd-cv rebuilds its mentoring tables from people.yaml on
 #   `yaml-updated`. (It picks up the .bib files with its own daily sync.)
 #
 # Each needs a fine-grained PAT with Contents: write on the target repository,
-# stored here as SITE_REPO_PAT and CV_REPO_PAT. Sending the dispatch is all
+# stored here as LAB_SITE_PAT, SITE_REPO_PAT and CV_REPO_PAT. Sending the dispatch is all
 # each job does, so a missing or expired token fails that job loudly.
 
 on:
@@ -26,6 +27,17 @@ permissions:
   contents: read
 
 jobs:
+  lab-site:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Tell the lab website to update
+      uses: peter-evans/repository-dispatch@v3
+      with:
+        token: ${{ secrets.LAB_SITE_PAT }}
+        repository: personalrobotics/personalrobotics.github.io
+        event-type: pubs-updated
+        client-payload: '{"sha": "${{ github.sha }}"}'
+
   website:
     runs-on: ubuntu-latest
     steps:
