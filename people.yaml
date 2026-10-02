@@ -13,9 +13,11 @@
 # Current Postdocs
 - id: loew
   name: Tobias Löw
+  aliases: ["Tobi Loew, Tobias Loew"]
   role: postdoc
   status: current
   start_year: 2026
+  website: https://tobiloew.ch
 
 # Current PhD Students
 - id: mesbahi
