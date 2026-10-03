@@ -66,12 +66,18 @@ unlinked, which is fine for anyone outside the lab.
 
 ## Add a paper's PDF
 
-Upload it to the lab's
-[Google Drive folder](https://drive.google.com/drive/folders/1M9fOGIIQ3e1R62dtVit5rZ5iWZqxfWV9),
-named exactly `<citation key>.pdf` (e.g. `baijal2025lrn.pdf`). It syncs to
+Upload it to the Publications folder of the lab's shared drive
+([link](https://drive.google.com/drive/folders/1M9fOGIIQ3e1R62dtVit5rZ5iWZqxfWV9)),
+named exactly `<citation key>.pdf` (e.g. `baijal2025lrn.pdf`). Within 15
+minutes it is copied to
 `https://personalrobotics.cs.washington.edu/publications/<citation key>.pdf`,
-and the lab website shows a **PDF** button once the file is there. Nothing in
+and the lab website shows a **PDF** button at its next daily rebuild. Nothing in
 the `.bib` entry needs to change.
+
+**To replace a PDF**, right-click the existing file and choose **File
+information → Manage versions → Upload new version**. Don't upload a second
+file with the same name: two files with one name can't be told apart, and
+lab members can't delete files from the drive.
 
 ## People: `people.yaml`
 
