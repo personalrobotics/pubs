@@ -71,8 +71,10 @@ Upload it to the Publications folder of the lab's shared drive
 named exactly `<citation key>.pdf` (e.g. `baijal2025lrn.pdf`). Within 15
 minutes it is copied to
 `https://personalrobotics.cs.washington.edu/publications/<citation key>.pdf`,
-and the lab website shows a **PDF** button at its next daily rebuild. Nothing in
-the `.bib` entry needs to change.
+and a few minutes later the lab website shows a **PDF** button. Nothing in the
+`.bib` entry needs to change. To make it show sooner, see "To show a new PDF
+right away" in the
+[website's README](https://github.com/personalrobotics/personalrobotics.github.io#what-happens-automatically).
 
 **To replace a PDF**, right-click the existing file and choose **File
 information → Manage versions → Upload new version**. Don't upload a second
