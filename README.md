@@ -156,9 +156,7 @@ among others:
 - a key sslabdata doesn't read, such as a misspelt `webiste`
 - a value of the wrong type, such as a `start_year` in quotes
 
-Each error names the file, the entry and the field. The other check, `test`,
-checks the entries against the old lab website and goes away when that site
-does.
+Each error names the file, the entry and the field.
 
 ## Check your change yourself
 
