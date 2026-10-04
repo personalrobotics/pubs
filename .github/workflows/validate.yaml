@@ -28,4 +28,4 @@ jobs:
         version: "0.12.15"
 
     - name: Validate
-      run: uvx sslabdata==5.0.0 --config lab.yaml --validate --strict
+      run: uvx sslabdata==6.0.0 --config lab.yaml --validate --strict

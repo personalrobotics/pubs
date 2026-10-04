@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/siddhss5/sslabdata/input-schema-v2/schema/input/v2/people.schema.json
+# yaml-language-server: $schema=https://raw.githubusercontent.com/siddhss5/sslabdata/input-schema-v3/schema/input/v3/people.schema.json
 # People data for the lab
 # Format: list of people with id, name, role, status, and other metadata
 
@@ -10,10 +10,20 @@
   status: current
   website: https://goodrobot.ai
 
+- id: faulkner
+  name: Taylor Kessler Faulkner
+  aliases: ["T.A.K. Faulkner", "Taylor A. Kessler Faulkner"]
+  role: faculty
+  status: current
+  start_year: 2024
+  website: https://www.taylorkesslerfaulkner.com
+  earlier_roles:
+    - {role: postdoc, start_year: 2022, end_year: 2024}
+
 # Current Postdocs
 - id: loew
   name: Tobias Löw
-  aliases: ["Tobi Loew, Tobias Loew"]
+  aliases: ["Tobi Loew", "Tobias Loew"]
   role: postdoc
   status: current
   start_year: 2026
@@ -39,7 +49,8 @@
   status: current
   start_year: 2023
   co_advisor: Abhishek Gupta
-
+  earlier_roles:
+    - {role: intern_grad, start_year: 2022, end_year: 2022}
   website: https://yunchuzhang.github.io/
 - id: talia
   name: Sidharth Talia
@@ -47,7 +58,8 @@
   role: phd_student
   status: current
   start_year: 2022
-
+  earlier_roles:
+    - {role: intern_undergrad, end_year: 2020}
   website: https://www.sidharthtalia.com/
 - id: helen-wang
   name: Helen Wang
@@ -59,15 +71,6 @@
 
 # Alumni Postdocs
   website: https://www.linkedin.com/in/yi-ru-helen-wang/
-- id: faulkner
-  name: Taylor Kessler Faulkner
-  aliases: ["T.A.K. Faulkner", "Taylor A. Kessler Faulkner"]
-  role: postdoc
-  status: alumni
-  start_year: 2022
-  end_year: 2024
-  current_position: Assistant Professor @ University of Washington
-
 - id: mavrogiannis
   name: Christoforos Mavrogiannis
   aliases: ["C. Mavrogiannis"]
@@ -129,6 +132,8 @@
   start_year: 2015
   end_year: 2017
   current_position: Associate Professor @ CMU
+  earlier_roles:
+    - {role: intern_grad, start_year: 2013, end_year: 2013}
 
 - id: johnson
   name: Aaron Johnson
@@ -342,6 +347,8 @@
   co_advisor: Nancy Pollard
   thesis_title: Robust Manipulation via Contact Sensing
   current_position: Researcher @ Waymo
+  earlier_roles:
+    - {role: intern_grad, start_year: 2012, end_year: 2012}
 
 - id: dellin
   name: Christopher Dellin
@@ -433,6 +440,8 @@
   end_year: 2017
   thesis_title: Highly Robust Pose Estimation from Single Frame RGBD
   current_position: Researcher @ Aurora
+  earlier_roles:
+    - {role: intern_undergrad, start_year: 2014, end_year: 2017}
 
 - id: shushman-choudhury
   name: Shushman Choudhury

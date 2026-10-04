@@ -98,8 +98,26 @@ lab members can't delete files from the drive.
     Jane works on robot learning for assistive manipulation.
 ```
 
-`role` is one of `professor`, `postdoc`, `phd_student`, `ms_student`,
-`research_staff`, `intern_grad` or `intern_undergrad`.
+`role` is one of `professor`, `faculty`, `postdoc`, `phd_student`,
+`ms_student`, `research_staff`, `intern_grad` or `intern_undergrad`.
+
+**Changing role inside the lab** (intern to PhD student, MS to PhD, postdoc
+to faculty): keep your one entry. Move the old role into `earlier_roles`,
+oldest first, and give the entry its new `role` and `start_year`:
+
+```yaml
+- id: faulkner
+  name: Taylor Kessler Faulkner
+  role: faculty
+  status: current
+  start_year: 2024
+  earlier_roles:
+    - {role: postdoc, start_year: 2022, end_year: 2024}
+```
+
+Each earlier role can also carry `degree`, `thesis_title` and `co_advisor`.
+Its years must not overlap the next role's: an earlier role ends by the year
+the next one starts.
 
 **Leaving:** keep your entry. Change `status` to `alumni` and add:
 
@@ -148,7 +166,7 @@ With [uv](https://docs.astral.sh/uv/) installed, from your checkout of this
 repository:
 
 ```console
-$ uvx sslabdata==5.0.0 --config lab.yaml --validate --strict
+$ uvx sslabdata==6.0.0 --config lab.yaml --validate --strict
 ```
 
 `Validation passed.` means `validate` will pass too. To list the authors that
@@ -156,7 +174,7 @@ matched no one in `people.yaml`, for instance to check that your own papers
 link to you:
 
 ```console
-$ uvx sslabdata==5.0.0 --config lab.yaml --unresolved
+$ uvx sslabdata==6.0.0 --config lab.yaml --unresolved
 ```
 
 To see how your change looks on the lab website before it is merged, follow
