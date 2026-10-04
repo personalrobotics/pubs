@@ -22,4 +22,4 @@ Tick what applies and delete the sections that don't. The README explains each f
 - [ ] Added or updated the project in `projects.yaml` (`status: active` or `completed`)
 
 ### Before asking for review
-- [ ] `uvx sslabdata==5.0.0 --config lab.yaml --validate --strict` says `Validation passed.` (the `validate` check runs the same thing)
+- [ ] `uvx sslabdata==6.0.0 --config lab.yaml --validate --strict` says `Validation passed.` (the `validate` check runs the same thing)

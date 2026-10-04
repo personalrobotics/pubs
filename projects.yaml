@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/siddhss5/sslabdata/input-schema-v2/schema/input/v2/projects.schema.json
+# yaml-language-server: $schema=https://raw.githubusercontent.com/siddhss5/sslabdata/input-schema-v3/schema/input/v3/projects.schema.json
 # Projects configuration file
 #
 # Add your research projects here. Each project should have:
