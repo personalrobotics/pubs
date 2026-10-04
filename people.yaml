@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/siddhss5/sslabdata/input-schema-v2/schema/input/v2/people.schema.json
+# yaml-language-server: $schema=https://raw.githubusercontent.com/siddhss5/sslabdata/input-schema-v3/schema/input/v3/people.schema.json
 # People data for the lab
 # Format: list of people with id, name, role, status, and other metadata
 
@@ -9,6 +9,16 @@
   role: professor
   status: current
   website: https://goodrobot.ai
+
+- id: faulkner
+  name: Taylor Kessler Faulkner
+  aliases: ["T.A.K. Faulkner", "Taylor A. Kessler Faulkner"]
+  role: professor
+  status: current
+  start_year: 2024
+  current_position: Assistant Professor @ University of Washington
+  earlier_roles:
+    - {role: postdoc, start_year: 2022, end_year: 2024}
 
 # Current Postdocs
 - id: loew
@@ -59,15 +69,6 @@
 
 # Alumni Postdocs
   website: https://www.linkedin.com/in/yi-ru-helen-wang/
-
-- id: faulkner
-  name: Taylor Kessler Faulkner
-  aliases: ["T.A.K. Faulkner", "Taylor A. Kessler Faulkner"]
-  role: postdoc
-  status: alumni
-  start_year: 2022
-  end_year: 2024
-  current_position: Assistant Professor @ University of Washington
 
 - id: mavrogiannis
   name: Christoforos Mavrogiannis
