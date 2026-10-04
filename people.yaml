@@ -42,8 +42,8 @@
   role: phd_student
   status: current
   start_year: 2024
-
   website: https://github.com/EPronovost
+
 - id: yunchu-zhang
   name: Yunchu Zhang
   role: phd_student
@@ -53,6 +53,7 @@
   earlier_roles:
     - {role: intern_grad, start_year: 2022, end_year: 2022}
   website: https://yunchuzhang.github.io/
+
 - id: talia
   name: Sidharth Talia
   aliases: ["S. Talia"]
@@ -62,6 +63,7 @@
   earlier_roles:
     - {role: intern_undergrad, end_year: 2020}
   website: https://www.sidharthtalia.com/
+
 - id: helen-wang
   name: Helen Wang
   aliases: ["Yi Ru Wang", "YR. Wang", "Y.R. Wang"]
@@ -69,9 +71,22 @@
   status: current
   start_year: 2022
   co_advisor: Dieter Fox
+  website: https://www.linkedin.com/in/yi-ru-helen-wang/
+
+# Current Undergraduate Interns
+- id: pfeifer
+  name: Quinn Pfeifer
+  role: intern_undergrad
+  status: current
+  website: https://quinnmp.github.io/
+
+- id: kutty
+  name: Sriram Kutty
+  role: intern_undergrad
+  status: current
+  start_year: 2025
 
 # Alumni Postdocs
-  website: https://www.linkedin.com/in/yi-ru-helen-wang/
 - id: mavrogiannis
   name: Christoforos Mavrogiannis
   aliases: ["C. Mavrogiannis"]
@@ -154,7 +169,6 @@
   end_year: 2014
   current_position: CTO @ Agility
 
-# Alumni PhD Students
 - id: sadeghi
   name: Fereshteh Sadeghi
   role: postdoc
@@ -162,6 +176,8 @@
   start_year: 2018
   end_year: 2019
   current_position: Research Scientist @ DeepMind
+
+# Alumni PhD Students
 - id: nanavati
   name: Amal Nanavati
   aliases: ["A. Nanavati"]
@@ -536,6 +552,7 @@
   co_advisor: Drew Bagnell
   thesis_title: "GATMO: A Generalized Approach to Tracking Movable Objects"
   current_position: Google Robotics
+
 - id: michalove
   name: Johan Michalove
   role: ms_student
@@ -544,6 +561,7 @@
   end_year: 2019
   thesis_title: "MuSHR: A Low-Cost, Open-Source Robotic Racecar for Education and Research"
   current_position: PhD @ Cornell
+
 - id: summers
   name: Colin Summers
   role: ms_student
@@ -551,6 +569,7 @@
   start_year: 2018
   end_year: 2020
   thesis_title: "Lyceum: An Efficient and Scalable Ecosystem for Robot Learning"
+
 - id: rockett
   name: Matthew Rockett
   role: ms_student
@@ -559,13 +578,6 @@
   end_year: 2020
   thesis_title: "MuSHR: A Low-Cost, Open-Source Robotic Racecar for Education and Research"
   current_position: Engineer @ Zordi
-- id: nansong-yi
-  name: Nansong Yi
-  role: intern_grad
-  status: alumni
-  start_year: 2019
-  end_year: 2021
-  current_position: Engineer @ Amazon
 
 # Alumni Research Staff
 - id: karim
@@ -574,12 +586,14 @@
   status: alumni
   start_year: 2022
   end_year: 2023
+
 - id: bolotski
   name: Haya Bolotski
   role: research_staff
   status: alumni
   end_year: 2024
   current_position: undergraduate @ MIT
+
 - id: song
   name: Hanjun Song
   role: research_staff
@@ -587,6 +601,7 @@
   start_year: 2016
   end_year: 2019
   current_position: PhD @ MIT
+
 - id: madan
   name: Rishabh Madan
   role: research_staff
@@ -594,6 +609,7 @@
   start_year: 2019
   end_year: 2020
   current_position: PhD @ Cornell
+
 - id: kim
   name: Youngsun Kim
   role: research_staff
@@ -603,186 +619,230 @@
   current_position: Amazon
 
 # Graduate Interns
+- id: nansong-yi
+  name: Nansong Yi
+  role: intern_grad
+  status: alumni
+  start_year: 2019
+  end_year: 2021
+  current_position: Engineer @ Amazon
+
 - id: yewon-lee
   name: Yewon Lee
   role: intern_grad
   status: alumni
   start_year: 2024
   end_year: 2025
+
 - id: larkin
   name: Ashton Larkin
   role: intern_grad
   status: alumni
   start_year: 2024
   end_year: 2025
+
 - id: sorokin
   name: Alex Sorokin
   role: intern_grad
   status: alumni
   start_year: 2010
+
 - id: deshpande
   name: Ashish Deshpande
   role: intern_grad
   status: alumni
   start_year: 2006
+
 - id: morris
   name: Colin Morris
   role: intern_grad
   status: alumni
+
 - id: gallenberger
   name: Daniel Gallenberger
   role: intern_grad
   status: alumni
   start_year: 2018
+
 - id: kyi
   name: Davin Win Kyi
   role: intern_grad
   status: alumni
+
 - id: quere
   name: Gabriel Quéré
   role: intern_grad
   status: alumni
+
 - id: hollinger
   name: Geoffrey Hollinger
   role: intern_grad
   status: alumni
   start_year: 2008
+
 - id: bartels
   name: Georg Bartels
   role: intern_grad
   status: alumni
   start_year: 2013
+
 - id: fu
   name: Jiaxin Fu
   role: intern_grad
   status: alumni
   start_year: 2006
+
 - id: spencer
   name: Jonathan Spencer
   role: intern_grad
   status: alumni
   start_year: 2022
+
 - id: haustein
   name: Joshua Haustein
   role: intern_grad
   status: alumni
   start_year: 2014
+
 - id: ziegler
   name: Julius Ziegler
   role: intern_grad
   status: alumni
   start_year: 2009
+
 - id: correll
   name: Katie Correll
   role: intern_grad
   status: alumni
   start_year: 2013
+
 - id: peterson
   name: Kevin Peterson
   role: intern_grad
   status: alumni
   start_year: 2008
+
 - id: lindzey
   name: Laura Lindzey
   role: intern_grad
   status: alumni
   start_year: 2009
+
 - id: pinto
   name: Lerrel Pinto
   role: intern_grad
   status: alumni
   start_year: 2019
+
 - id: chang
   name: Lillian Chang
   role: intern_grad
   status: alumni
   start_year: 2009
+
 - id: martinez
   name: Manuel Martinez
   role: intern_grad
   status: alumni
   start_year: 2009
+
 - id: cognetti
   name: Marco Cognetti
   role: intern_grad
   status: alumni
   start_year: 2015
+
 - id: rufli
   name: Martin Rufli
   role: intern_grad
   status: alumni
   start_year: 2008
+
 - id: cakmak
   name: Maya Cakmak
   role: intern_grad
   status: alumni
   start_year: 2010
+
 - id: ashley-rollman
   name: Michael Ashley-Rollman
   role: intern_grad
   status: alumni
   start_year: 2006
+
 - id: derosa
   name: Michael DeRosa
   role: intern_grad
   status: alumni
   start_year: 2006
+
 - id: ratliff
   name: Nathan Ratliff
   role: intern_grad
   status: alumni
   start_year: 2008
+
 - id: blodow
   name: Nico Blodow
   role: intern_grad
   status: alumni
   start_year: 2009
+
 - id: kaiser
   name: Peter Kaiser
   role: intern_grad
   status: alumni
   start_year: 2010
+
 - id: bhatt
   name: Preethi Bhatt
   role: intern_grad
   status: alumni
   start_year: 2006
+
 - id: diankov
   name: Rosen Diankov
   role: intern_grad
   status: alumni
   start_year: 2009
   current_position: Mujin
+
 - id: knepper
   name: Ross Knepper
   role: intern_grad
   status: alumni
   start_year: 2009
+
 - id: sheikholeslami
   name: Sara Sheikholeslami
   role: intern_grad
   status: alumni
   start_year: 2019
+
 - id: pellegrinelli
   name: Stefania Pellegrinelli
   role: intern_grad
   status: alumni
   start_year: 2015
+
 - id: gray
   name: Steven Gray
   role: intern_grad
   status: alumni
   start_year: 2011
+
 - id: anderson
   name: Stuart Anderson
   role: intern_grad
   status: alumni
   start_year: 2006
+
 - id: niemueller
   name: Tim Niemueller
   role: intern_grad
   status: alumni
   start_year: 2010
+
 - id: micelli
   name: Vincenzo Micelli
   role: intern_grad
@@ -795,201 +855,234 @@
   role: intern_undergrad
   status: alumni
   end_year: 2018
+
 - id: abhay-deshpande
   name: Abhay Deshpande
   role: intern_undergrad
   status: alumni
   start_year: 2022
   end_year: 2024
+
 - id: tallavajhula
   name: Abhijeet Tallavajhula
   role: intern_undergrad
   status: alumni
   end_year: 2012
+
 - id: zirbel
   name: Alex Zirbel
   role: intern_undergrad
   status: alumni
   start_year: 2011
   end_year: 2012
+
 - id: yeager
   name: Andrew Yeager
   role: intern_undergrad
   status: alumni
   end_year: 2009
+
 - id: kurenkov
   name: Andrey Kurenkov
   role: intern_undergrad
   status: alumni
   end_year: 2013
+
 - id: wang
   name: Angela Wang
   role: intern_undergrad
   status: alumni
   end_year: 2014
+
 - id: kuznetsov
   name: Anton Kuznetsov
   role: intern_undergrad
   status: alumni
+
 - id: thareja
   name: Arnav Thareja
   role: intern_undergrad
   status: alumni
   end_year: 2023
+
 - id: saxena
   name: Arpit Saxena
   role: intern_undergrad
   status: alumni
+
 - id: xiong
   name: Bo Xiong
   role: intern_undergrad
   status: alumni
   end_year: 2012
+
 - id: geiman
   name: Connor Geiman
   role: intern_undergrad
   status: alumni
   end_year: 2018
+
 - id: guaru
   name: Corina Guaru
   role: intern_undergrad
   status: alumni
   end_year: 2012
+
 - id: dewey
   name: Daniel Dewey
   role: intern_undergrad
   status: alumni
   start_year: 2007
   end_year: 2008
+
 - id: dwebi
   name: Debidatta Dwebi
   role: intern_undergrad
   status: alumni
   end_year: 2012
+
 - id: dominic-zirbel
   name: Dominic Zirbel
   role: intern_undergrad
   status: alumni
   end_year: 2012
+
 - id: zheng
   name: Don Zheng
   role: intern_undergrad
   status: alumni
   end_year: 2014
+
 - id: thuon
   name: Ian-Clanton Thuon
   role: intern_undergrad
   status: alumni
   start_year: 2008
   end_year: 2009
+
 - id: maxwell
   name: Jeffrey Maxwell
   role: intern_undergrad
   status: alumni
   start_year: 2017
   end_year: 2019
+
 - id: fernau
   name: Joey Fernau
   role: intern_undergrad
   status: alumni
   end_year: 2015
+
 - id: field
   name: Kaiden James Field
   role: intern_undergrad
   status: alumni
   end_year: 2018
+
 - id: kenton-lee
   name: Kenton Lee
   role: intern_undergrad
   status: alumni
   end_year: 2012
+
 - id: zhang
   name: Kevin Zhang
   role: intern_undergrad
   status: alumni
   start_year: 2015
   end_year: 2017
+
 - id: alrashed
   name: Maha Alrashed
   role: intern_undergrad
   status: alumni
   end_year: 2018
+
 - id: harding
   name: Matt Harding
   role: intern_undergrad
   status: alumni
+
 - id: kwon
   name: Minae Kwon
   role: intern_undergrad
   status: alumni
   end_year: 2018
+
 - id: blodnick
   name: Myles Blodnick
   role: intern_undergrad
   status: alumni
   end_year: 2014
+
 - id: sundaresan
   name: Nanda Sundaresan
   role: intern_undergrad
   status: alumni
   start_year: 2017
   end_year: 2018
+
 - id: jassal
   name: Neil Jassal
   role: intern_undergrad
   status: alumni
   end_year: 2014
+
 - id: stanley
   name: Nick Stanley
   role: intern_undergrad
   status: alumni
   end_year: 2011
+
 - id: mchale
   name: Peter McHale
   role: intern_undergrad
   status: alumni
   end_year: 2014
+
 - id: peng
   name: Quanquan Peng
   role: intern_undergrad
   status: alumni
   end_year: 2024
-- id: pfeifer
-  name: Quinn Pfeifer
-  role: intern_undergrad
-  status: current
-  website: https://quinnmp.github.io/
+
 - id: holladay
   name: Rachel Holladay
   role: intern_undergrad
   status: alumni
   start_year: 2013
   end_year: 2017
+
 - id: vernwal
   name: Rahul Vernwal
   role: intern_undergrad
   status: alumni
   end_year: 2018
+
 - id: jenamani
   name: Rajat Kumar Jenamani
   role: intern_undergrad
   status: alumni
   end_year: 2019
+
 - id: qu
   name: Ramon Qu
   role: intern_undergrad
   status: alumni
   end_year: 2017
+
 - id: challa
   name: Ramya Challa
   role: intern_undergrad
   status: alumni
   start_year: 2022
   end_year: 2023
+
 - id: ray-song
   name: Yuxin (Ray) Song
   role: intern_undergrad
   status: alumni
+
 - id: baijal
   name: Rohan Baijal
   role: intern_undergrad
@@ -997,26 +1090,25 @@
   start_year: 2022
   end_year: 2023
   current_position: PhD @ UW
+
 - id: yee
   name: Savanna Yee
   role: intern_undergrad
   status: alumni
   end_year: 2018
+
 - id: martin
   name: Scott Martin
   role: intern_undergrad
   status: alumni
   end_year: 2014
+
 - id: singhal
   name: Shivam Singhal
   role: intern_undergrad
   status: alumni
   end_year: 2019
-- id: kutty
-  name: Sriram Kutty
-  role: intern_undergrad
-  status: current
-  start_year: 2025
+
 - id: poddar
   name: Sriyash Poddar
   role: intern_undergrad
@@ -1024,39 +1116,46 @@
   start_year: 2022
   end_year: 2023
   current_position: PhD @ UW
+
 - id: roychowdhury
   name: Sumegh Roychowdhury
   role: intern_undergrad
   status: alumni
   start_year: 2020
   end_year: 2021
+
 - id: tao-jin
   name: Tao Jin
   role: intern_undergrad
   status: alumni
   end_year: 2018
+
 - id: mullins
   name: Tom Mullins
   role: intern_undergrad
   status: alumni
   end_year: 2011
+
 - id: achim
   name: Tudor Achim
   role: intern_undergrad
   status: alumni
   start_year: 2009
   end_year: 2010
+
 - id: sunder
   name: Vikram Sunder
   role: intern_undergrad
   status: alumni
   end_year: 2014
+
 - id: ranganeni
   name: Vinitha Ranganeni
   role: intern_undergrad
   status: alumni
   start_year: 2015
   end_year: 2017
+
 - id: guo
   name: Yuyang Guo
   role: intern_undergrad
