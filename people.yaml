@@ -21,6 +21,14 @@
   earlier_roles:
     - {role: postdoc, start_year: 2022, end_year: 2024}
 
+# Current Staff
+- id: romig
+  name: Emma Romig
+  role: staff
+  status: current
+  start_year: 2024
+  current_position: Lab Director
+
 # Current Postdocs
 - id: loew
   name: Tobias Löw
