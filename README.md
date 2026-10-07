@@ -98,8 +98,28 @@ lab members can't delete files from the drive.
     Jane works on robot learning for assistive manipulation.
 ```
 
-`role` is one of `professor`, `faculty`, `postdoc`, `phd_student`,
+`role` is one of `professor`, `faculty`, `staff`, `postdoc`, `phd_student`,
 `ms_student`, `research_staff`, `intern_grad` or `intern_undergrad`.
+
+- `staff` is for the people who run the lab, such as a lab director or lab
+  manager; `research_staff` is for research engineers and scientists.
+- For a current member, `current_position` is their title, and the lab
+  website's People page shows it next to their role. A lab director, for
+  instance:
+
+  ```yaml
+  - id: romig
+    name: Emma Romig
+    role: staff
+    status: current
+    start_year: 2024
+    current_position: Lab Director
+  ```
+
+  For alumni it is what they do now, after the lab.
+- A new kind of role needs a title on the lab website: add it to
+  `role_titles` in the website's `lab.yaml`, in the order the People page
+  should list it.
 
 **Changing role inside the lab** (intern to PhD student, MS to PhD, postdoc
 to faculty): keep your one entry. Move the old role into `earlier_roles`,
