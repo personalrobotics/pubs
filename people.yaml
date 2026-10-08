@@ -93,6 +93,12 @@
   role: intern_undergrad
   status: current
   start_year: 2025
+  
+- id: bethyueding
+  name: Beth Ding
+  role: intern_undergrad
+  status: current
+  start_year: 2026
 
 # Alumni Postdocs
 - id: mavrogiannis
