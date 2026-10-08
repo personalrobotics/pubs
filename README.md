@@ -70,7 +70,7 @@ Upload it to the Publications folder of the lab's shared drive
 ([link](https://drive.google.com/drive/folders/1M9fOGIIQ3e1R62dtVit5rZ5iWZqxfWV9)),
 named exactly `<citation key>.pdf` (e.g. `baijal2025lrn.pdf`). Within 15
 minutes it is copied to
-`https://personalrobotics.cs.washington.edu/publications/<citation key>.pdf`,
+`https://personalrobotics-files.cs.washington.edu/<citation key>.pdf`,
 and a few minutes later the lab website shows a **PDF** button. Nothing in the
 `.bib` entry needs to change. To make it show sooner, see "To show a new PDF
 right away" in the
