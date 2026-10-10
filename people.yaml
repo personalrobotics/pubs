@@ -99,6 +99,7 @@
   role: intern_undergrad
   status: current
   start_year: 2025
+  website: https://ryanruihangao.github.io/
 
 - id: sam
   name: Sam Xiang
@@ -111,6 +112,7 @@
   role: intern_undergrad
   status: current
   start_year: 2026
+  website: https://zcyqyq.github.io/
 
 # Alumni Postdocs
 - id: mavrogiannis
