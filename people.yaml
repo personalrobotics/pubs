@@ -94,6 +94,24 @@
   status: current
   start_year: 2025
 
+- id: ryan
+  name: Ruihan Gao
+  role: intern_undergrad
+  status: current
+  start_year: 2025
+
+- id: sam
+  name: Sam Xiang
+  role: intern_undergrad
+  status: current
+  start_year: 2026
+
+- id: celia
+  name: Caiyi (Celia) Zhang
+  role: intern_undergrad
+  status: current
+  start_year: 2026
+
 # Alumni Postdocs
 - id: mavrogiannis
   name: Christoforos Mavrogiannis
@@ -428,6 +446,13 @@
   current_position: Associate Professor @ Michigan
 
 # Alumni MS Students
+- id: yuchen-yang
+  name: Yuchen Yang
+  role: ms_student
+  status: alumni
+  start_year: 2025
+  end_year: 2026
+
 - id: jaime
   name: Jose Jaime
   role: ms_student
