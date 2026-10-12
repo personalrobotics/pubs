@@ -29,3 +29,9 @@
   description: "We are developing a theory and framework for data-efficient robot learning that unifies efficient representation learning with provably reliable supervision. Our goal is to enable agents to generalize from limited, imperfect, or synthetic data by grounding both what they learn, through compact, task-aligned representations, and how they learn, through corrective labels that are mathematically consistent with the underlying dynamics. This perspective treats learning as an interplay between structure discovery and label synthesis, yielding algorithms that can extrapolate safely beyond expert demonstrations. Ultimately, we aim to build robotic systems that learn robustly and efficiently from sparse, weak, or self-generated experience."
   website: "https://personalrobotics.github.io/CCIL/"
   status: "active"
+
+- id: "humancentered"
+  title: "Human-Centered Robot Learning and Evaluation"
+  description: "We study how to evaluate robot manipulation policies beyond a single success rate, and how people can shape what gets measured. We treat evaluation as a structured measurement problem: behavioral metrics for efficiency, coordination, and safety, together with outcome metrics that trace stagewise progress and localize failures, separate policies with similar success rates. We treat the task set itself as something people author: natural-language instructions are compiled into reproducible, executable task specifications, each defining a family of related variations, so that an evaluation space grows with its contributors instead of being fixed by a few experts. The same perspective extends to the language models that policies build on, where we benchmark physical reasoning about everyday objects. Our broader goal is evaluation that is diagnostic, reproducible, and extensible by its community."
+  website: ""
+  status: "active"
