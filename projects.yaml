@@ -35,3 +35,15 @@
   description: "We study how to evaluate robot manipulation policies beyond a single success rate, and how people can shape what gets measured. We treat evaluation as a structured measurement problem: behavioral metrics for efficiency, coordination, and safety, together with outcome metrics that trace stagewise progress and localize failures, separate policies with similar success rates. We treat the task set itself as something people author: natural-language instructions are compiled into reproducible, executable task specifications, each defining a family of related variations, so that an evaluation space grows with its contributors instead of being fixed by a few experts. The same perspective extends to the language models that policies build on, where we benchmark physical reasoning about everyday objects. Our broader goal is evaluation that is diagnostic, reproducible, and extensible by its community."
   website: ""
   status: "active"
+
+- id: "geometricrobotics"
+  title: "Geometric Fields for Manipulation"
+  description: "We represent what a robot manipulates, and what it should do about it, as geometric fields. Around an object, a field assigns to every point in space a direction, a distance, or a full pose, such as the grasp frame to move toward, so a task is written once on the object and transfers to new objects, new poses and new robots. These fields live in a geometric algebra, which makes poses, twists, wrenches and spheres elements of one structure, and lets us ask coordinate-free questions of them: how a field flows, diffuses or interpolates, and what symmetry it carries. The same structure is a lever for learning, since networks and policies whose layers act on geometric quantities respect symmetry and type by construction rather than learning them from data. Our broader goal is an open foundation, in the form of a library, in which a robot's task models, controllers and learned components speak one geometric language."
+  website: ""
+  status: "active"
+
+- id: "redundancy"
+  title: "Redundancy and Structure in Manipulation"
+  description: "A manipulator with more joints than its task needs can reach the same goal in a continuum of ways, and that freedom is where planning, control and learning get both their power and their difficulty. We study the structure of this freedom: the shape of the set of configurations that achieve a task, the branches and singularities that cut it into pieces, and the metrics that say which motion along it is cheap. We make that structure explicit, with exact and fast computation where it is available, and use it to plan, to control and to give learned policies a well-behaved space to act in. Our broader goal is to treat redundancy as a resource that can be reasoned about, rather than a degeneracy to be resolved by a heuristic."
+  website: ""
+  status: "active"
