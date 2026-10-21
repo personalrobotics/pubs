@@ -1,0 +1,22 @@
+# The words student_projects.yml may use, and what the Join page shows for them.
+# The website's build refuses any other word.
+
+# What kind of work it is, so a student can look for what they like doing.
+kinds:
+  software: Software
+  theory: Math and theory
+  simulation: Simulation
+  hardware: Real robots
+  learning: Machine learning
+
+# How much time it asks for.
+sizes:
+  quarter: One quarter
+  summer: A summer
+  long: Longer, such as a thesis or a year
+
+# How the student can work with us. The Join page says what each one expects.
+arrangements:
+  credit: For credit
+  pay: Paid
+  volunteer: As a volunteer

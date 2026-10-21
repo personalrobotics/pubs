@@ -162,6 +162,38 @@ for alumni, and they go stale.
 
 A paper joins a project through its `project` field; nothing else links them.
 
+## Student projects: `student_projects.yml`
+
+The open projects on the lab website's
+[Join page](https://personalrobotics.github.io/join/), and on the page of the
+project each belongs to. Anyone in the lab can add one. Write for a student who
+has not met the research: say what they will make and learn, not the research
+question.
+
+```yaml
+- id: mobile-base-planning       # unique; lower case, no spaces
+  project: redundancy            # an id from projects.yaml
+  title: Let a mobile robot choose where to stand to do the job
+  pitch: One sentence: what the student will have made at the end.
+  contact: loew                  # a person id; they need an `email` in people.yaml
+  subject: "Student project: mobile base planning"   # unique; students use it
+  levels: [intern_undergrad, ms_student]
+  kinds: [software, simulation]  # words from student_project_terms.yml
+  size: quarter
+  arrangements: [credit, volunteer]
+  status: open                   # or filled, which hides it
+  description: >-
+    What they would do, in plain words.
+  learn: >-
+    What they will learn.
+  background: What helps.        # optional, as are not_needed, first_step, papers
+```
+
+The header of the file lists every field. `student_project_terms.yml` holds the
+words `kinds`, `size` and `arrangements` may use. `sslabdata` does not read
+either file, so `validate` does not check them: the website's build does, and
+fails on an unknown project, contact or citation key, or a repeated subject.
+
 ## How mistakes are caught
 
 Every pull request runs **`validate`**, which checks the `.bib` files,
