@@ -1,0 +1,134 @@
+# Open student projects, shown on the lab website's Join page and on the page
+# of the project each belongs to. Anyone in the lab can add one. The website's
+# build checks this file against people.yaml, projects.yaml and the .bib files
+# (scripts/check_student_projects.py there), and the words it may use are in
+# student_project_terms.yml.
+#
+# Write for a student who has not met the research. Say what they will make, not
+# the research question, and keep the research words on the project pages.
+#
+#   id:            unique; lower case, no spaces
+#   project:       an id from pubs' projects.yaml; it is shown as "part of"
+#   title:         what the student does, as a short phrase
+#   pitch:         one sentence: what they will have made at the end
+#   contact:       a person id from pubs' people.yaml; that person needs an `email`
+#   subject:       the email subject for this project, unique
+#   levels:        who it suits: intern_undergrad, ms_student, phd_student
+#   kinds:         one or more of student_project_terms.yml `kinds`
+#   size:          one of `sizes`
+#   arrangements:  which of `arrangements` the project can run as
+#   status:        open or filled (a filled project is not shown)
+#   description:   what they would do, in plain words
+#   learn:         what they will learn
+#   background:    what helps, optional
+#   not_needed:    what they do not need to know, optional
+#   first_step:    something to try before writing to us, optional
+#   papers:        citation keys of papers to start from, optional
+
+- id: bimanual-cleaning
+  project: geometricrobotics
+  title: Teach two arms to clean a surface together
+  pitch: Two robot arms that wipe a table or a window so that every dirty patch gets the right amount of rubbing, built on our ergodic coverage work.
+  contact: loew
+  subject: "Student project: bimanual cleaning"
+  levels: [intern_undergrad, ms_student, phd_student]
+  kinds: [simulation, software, hardware]
+  size: long
+  arrangements: [credit, pay, volunteer]
+  status: open
+  description: >-
+    Cleaning is a coverage problem: a robot has to spread its effort over a
+    surface in proportion to where the dirt is, and press hard enough to work
+    but not so hard that it damages anything. We already have a method that
+    makes one arm cover a curved surface this way. You would extend it to two
+    arms that share a surface: splitting the area between them, keeping them
+    out of each other's way, and deciding how hard each one presses. You would
+    start in simulation, where the dirt and the contact forces are modelled,
+    and move to real arms once it behaves.
+  learn: >-
+    How coverage and exploration controllers work, how robots control contact
+    force, how two arms coordinate, and how to test a method in simulation
+    before trusting it on hardware.
+  background: Python or C++. Some control or linear algebra helps.
+  not_needed: Robotics, geometric algebra or ergodic control. We teach the parts you need.
+  first_step: Read "Tactile Ergodic Coverage on Curved Surfaces" (Bilaloglu, Löw and Calinon) and tell us what you think changes when there are two arms.
+
+- id: learn-with-geometry
+  project: geometricrobotics
+  title: Make a robot learn from fewer demonstrations by building geometry into the network
+  pitch: A fair comparison of a standard network and a geometry-aware one on a robot task, showing how many demonstrations each needs.
+  contact: loew
+  subject: "Student project: learning with geometry"
+  levels: [ms_student, phd_student, intern_undergrad]
+  kinds: [learning, software, simulation]
+  size: quarter
+  arrangements: [credit, pay, volunteer]
+  status: open
+  description: >-
+    A standard network has to learn from data that turning the scene turns the
+    answer, and that a position and a direction are different kinds of thing.
+    A network built from geometric quantities knows both from the start. You
+    would pick a manipulation task in simulation, such as pushing an object to
+    a target pose, train both kinds of network on the same demonstrations, and
+    plot how performance grows with the number of demonstrations. The aim is an
+    honest picture of where building geometry in helps a lot, where it helps a
+    little, and where it gets in the way.
+  learn: >-
+    How to set up a careful machine learning comparison, how to train policies
+    from demonstrations, and how symmetry in a problem can be used in a model.
+  background: Python and PyTorch, and a machine learning course or equivalent.
+  not_needed: Robotics or geometric algebra. We teach what you need.
+  first_step: Train a small network on 20 examples of a rotated box moving, then rotate the test examples and see what happens.
+
+- id: mobile-base-planning
+  project: redundancy
+  title: Let a mobile robot choose where to stand to do the job
+  pitch: A planner that, for a job along a line or a surface, decides where a mobile robot should park its base and how to hold its arm, using all of the freedom it has.
+  contact: loew
+  subject: "Student project: mobile base planning"
+  levels: [intern_undergrad, ms_student, phd_student]
+  kinds: [software, simulation, hardware]
+  size: quarter
+  arrangements: [credit, pay, volunteer]
+  status: open
+  description: >-
+    A robot on a mobile base has far more freedom than a job needs. The base
+    can be in many places, the arm can be held in many ways, and a tool such as
+    a spray nozzle or a sander does not care how it is turned about its own
+    axis. We can count that freedom exactly, and we have code that tells us
+    which parts of a path an arm can follow without reconfiguring. You would
+    use both to plan where the base should stop and how the arm should be held
+    for jobs that are too long to reach from one spot, such as wiping a long
+    bench. You would compare it against stopping at a fixed distance, and then
+    try the best plans on a real robot.
+  learn: >-
+    How robot arms and mobile bases move together, what it means for a robot to
+    have extra freedom and how to use it, and how to turn a research tool into
+    a planner that someone could use.
+  background: Python. Basic kinematics helps.
+  not_needed: Prior robotics research. We teach the geometry you need.
+  first_step: Take a mobile manipulator in simulation and a line longer than its arm reaches, drive it by hand to follow the line, and count how many times you had to reposition.
+  papers: [berenson2009cbirrt, vandeweghe2007rrtjt]
+
+- id: bimanual-teleop
+  project: geometricrobotics
+  title: Teleoperate a two-armed robot and record the demonstrations
+  pitch: A working setup where you control both arms by hand, with the motions recorded in a form we can learn from.
+  contact: loew
+  subject: "Student project: bimanual teleop"
+  levels: [intern_undergrad, ms_student]
+  kinds: [hardware, software]
+  size: summer
+  arrangements: [credit, pay]
+  status: filled
+  description: >-
+    We want data of a person doing two-handed tasks with a robot. You would get
+    a hand tracker driving the two arms, make it reliable enough that someone
+    can use it for an hour, and save what is demonstrated so that we can train
+    on it. You would work on the real robot in the lab, with help.
+  learn: >-
+    How to bring up and safely run a real robot, how a control loop is built,
+    and what makes demonstration data usable.
+  background: Python. Comfort debugging hardware and software together.
+  not_needed: A robotics course, though one helps.
+  first_step: Read the geodude-teleoperation README and tell us which part you would start with.
