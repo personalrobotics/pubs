@@ -114,6 +114,13 @@
   start_year: 2026
   website: https://zcyqyq.github.io/
 
+- id: huang
+  name: Zach Huang
+  role: intern_undergrad
+  status: current
+  start_year: 2026
+  website: https://zachhuang-ai.github.io/
+
 # Alumni Postdocs
 - id: mavrogiannis
   name: Christoforos Mavrogiannis
