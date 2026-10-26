@@ -114,6 +114,13 @@
   start_year: 2026
   website: https://zcyqyq.github.io/
 
+- id: wgao
+  name: Will Gao
+  aliases: ["W. Gao"]
+  role: intern_undergrad
+  status: current
+  start_year: 2026
+
 # Alumni Postdocs
 - id: mavrogiannis
   name: Christoforos Mavrogiannis
